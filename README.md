@@ -34,3 +34,22 @@ Requires Node.js and pnpm. Run `pnpm install`, configure the environment variabl
 ## Security note
 
 The application uses a custom cookie-based session flow and service-role database access. Review session protections, authorization rules, Supabase policies, and production configuration before deploying with real users or reports. This repository contains application code, not report data.
+
+
+## Snapshot review
+
+This is the Next.js/Supabase implementation, distinct from [Enterprise Indicators Portal](https://github.com/KauannOliver/enterprise-indicators-portal), which uses React/Vite and Netlify Functions. The support directory uses a fictitious contact. No internal reports are distributed.
+
+Git-triggered Vercel deployment is disabled in the included web configurations. This update publishes source and documentation only.
+
+## License
+
+No new distribution license is granted for this corporate source edition. Public visibility does not grant reuse rights; obtain permission from the relevant rights holder. Existing third-party notices remain applicable.
+
+## Dependency baseline
+
+The original dependency manifest has peer conflicts. `npm install --legacy-peer-deps` is the compatibility install used for the snapshot checks; it does not resolve those upstream compatibility constraints. Dependency modernization remains a separate maintenance task. The inherited `next lint` script is incompatible with newer Next.js CLIs.
+
+## Verification record
+
+See [snapshot checks and remaining limitations](docs/VERIFICATION.md).

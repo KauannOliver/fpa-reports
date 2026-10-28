@@ -14,7 +14,7 @@ export default async function AdminDashboardPage() {
   const reports = await getAllReports()
   const activeReports = reports.filter((report) => report.ativo)
   const usersList = await listUsers()
-  const managers = usersList.filter((user) => user.perfil === "manager") => user.perfil === "manager")
+  const managers = usersList.filter((user) => user.perfil === "manager")
 
   return (
     <div className="space-y-6">

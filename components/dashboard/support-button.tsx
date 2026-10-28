@@ -14,29 +14,7 @@ export function SupportButton({ className, variant = "outline", ...props }: Supp
   const [open, setOpen] = useState(false)
 
   const contacts = [
-    {
-      segment: "Bebidas",
-      contacts: [
-        { name: "Thiago Coelho", email: "thiagocoelho@expressonepomuceno.com.br" },
-        { name: "Luis Alves", email: "luisalves@expressonepomuceno.com.br" },
-      ],
-    },
-    {
-      segment: "Corporativo",
-      contacts: [{ name: "Vinicius Mota", email: "viniciusmota@expressonepomuceno.com.br" }],
-    },
-    {
-      segment: "Florestal",
-      contacts: [{ name: "Adilon Campos", email: "adiloncampos@expressonepomuceno.com.br" }],
-    },
-    {
-      segment: "Rodoviário",
-      contacts: [{ name: "Elisangela Vicente", email: "elisangelavicente@expressonepomuceno.com.br" }],
-    },
-    {
-      segment: "Suporte Técnico",
-      contacts: [{ name: "Kauan Tavares", email: "kauantavares@expressonepomuceno.com.br" }],
-    },
+    { segment: "Suporte Técnico", contacts: [{ name: "Support team", email: "support@example.invalid" }] },
   ]
 
   return (

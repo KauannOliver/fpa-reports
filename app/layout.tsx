@@ -8,8 +8,8 @@ import { SupabaseProvider } from "@/components/supabase-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "FP&A Expresso Nepomuceno - Sistema de Relatórios",
-  description: "Sistema de gestão de relatórios para FP&A Expresso Nepomuceno",
+  title: "FP&A Demo Organization - Sistema de Relatórios",
+  description: "Sistema de gestão de relatórios para FP&A Demo Organization",
     generator: 'v0.dev'
 }
 

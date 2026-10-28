@@ -87,7 +87,7 @@ export function MobileSidebar({ isAdmin }: MobileSidebarProps) {
           </nav>
           <div className="p-4 border-t border-white/10">
             <div className="text-xs text-gray-400 text-center">
-              © {new Date().getFullYear()} FP&A Expresso Nepomuceno
+              © {new Date().getFullYear()} FP&A Demo Organization
             </div>
           </div>
         </div>

@@ -20,7 +20,7 @@ export default async function LoginPage() {
           <h1 className="text-3xl font-bold mb-6 animate-slide-up">Sistema de Relatórios FP&A</h1>
 
           <p className="text-lg opacity-90 mb-4 animate-slide-up" style={{ animationDelay: "100ms" }}>
-            Bem-vindo à plataforma centralizada de relatórios financeiros da Expresso Nepomuceno.
+            Bem-vindo à plataforma centralizada de relatórios financeiros da Demo Organization.
           </p>
 
           <p className="opacity-80 animate-slide-up" style={{ animationDelay: "200ms" }}>
@@ -100,7 +100,7 @@ export default async function LoginPage() {
         </div>
 
         <div className="text-sm opacity-70 mt-8">
-          © {new Date().getFullYear()} FP&A Expresso Nepomuceno. Todos os direitos reservados.
+          © {new Date().getFullYear()} FP&A Demo Organization. Todos os direitos reservados.
         </div>
       </div>
 
@@ -126,7 +126,7 @@ export default async function LoginPage() {
               <p className="text-sm text-gray-600">
                 Problemas para acessar? Entre em contato com o 
                 <a
-                  href="mailto:kauantavares@expressonepomuceno.com.br"
+                  href="mailto:kauantavares@expressodemo-organization.com.br"
                   className="text-fpa-blue hover:text-blue-700 font-medium"
                 > 
                   suporte técnico
@@ -137,7 +137,7 @@ export default async function LoginPage() {
 
           {/* Copyright em telas pequenas */}
           <div className="md:hidden text-center text-xs text-gray-500 mt-8">
-            © {new Date().getFullYear()} FP&A Expresso Nepomuceno
+            © {new Date().getFullYear()} FP&A Demo Organization
           </div>
         </div>
       </div>

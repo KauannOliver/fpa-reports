@@ -7,13 +7,13 @@ interface LogoProps {
 }
 
 export function Logo({ className, simple = false }: LogoProps) {
-  const logoSrc = simple ? "/logo-simple.png" : "/logo.png"
+  const logoSrc = simple ? "/logo-simple.svg" : "/logo.svg"
 
   return (
     <Link href="/">
       <Image
         src={logoSrc || "/placeholder.svg"}
-        alt="FP&A Expresso Nepomuceno"
+        alt="FP&A Demo Organization"
         width={240}
         height={80}
         className={className}
