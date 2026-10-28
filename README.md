@@ -1,5 +1,7 @@
 <div align="center">
 
+> Source prototype: administration field/type contracts require repair, and the current build needs additional Supabase configuration. See [verification](docs/VERIFICATION.md) before attempting local use.
+
 # Business Reporting Portal
 
 A role-based portal for publishing, organizing, and controlling access to embedded business reports.
